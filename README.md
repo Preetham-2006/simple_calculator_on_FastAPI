@@ -55,8 +55,8 @@ This project includes unit tests to ensure the correctness of the application's 
    
 Or just run the tests from the test_calculator.py file located in the tests directory.
    
-##Error Handling
+**Error Handling**
 The API returns appropriate HTTP status codes and error messages for invalid requests, such as division by zero or invalid operators.
 
-##Deployment
+**Deployment**
 For production deployment, you'll likely want to use a production-ready WSGI server like Gunicorn or uWSGI along with a process manager like Supervisor or Systemd. You might also consider containerizing the application using Docker.
